@@ -1,0 +1,73 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.9",
+    "@emailjs/browser": "^3.7.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@firebase/auth": "^0.20.7",
+    "@material/menu": "^14.0.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.4",
+    "@mui/x-data-grid": "^5.17.3",
+    "@mui/x-data-grid-generator": "^5.17.3",
+    "@mui/x-data-grid-premium": "^5.17.3",
+    "@paypal/react-paypal-js": "^7.8.1",
+    "@react-google-maps/api": "^2.13.1",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.1",
+    "axios": "^0.27.2",
+    "emailjs-com": "^3.2.0",
+    "eslint": "^7.11.0",
+    "firebase": "^9.9.4",
+    "framer-motion": "^4.1.17",
+    "google-map-react": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "material-react-table": "^1.2.9",
+    "react": "^17.0.2",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.37.0",
+    "react-icons": "^4.4.0",
+    "react-material-ui-searchbar": "^1.0.4",
+    "react-redux": "^7.2.8",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.5",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.32",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

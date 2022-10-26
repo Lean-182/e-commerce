@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+.container {
+   /* background-color: white; */
+   /* background-color: #ddb892; */
+
+   /* margin: 0; */
+   width: auto;
+   overflow: auto;
+   background-image: url(../image/fondo.png);
+   /* background-image: url(../image/Fondo2.png); */
+
+   background-size: 50% auto;
+}
+
+main {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.ContainerAbout {
+   margin-top: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   text-align: center;
+   /* background-color: aqua; */
+}
+
+.ContainerAbout .aboutTextprincipal {
+   width: 80%;
+   height: 110px;
+   border-radius: 8px;
+   margin: 0 auto;
+   background-color: #161616;
+   text-align: center;
+}
+
+.ContainerAbout .aboutTextprincipal p {
+   color: #fff;
+   font-size: 45px;
+   font-family: "Merienda", cursive;
+   padding: 20px;
+   margin: 0;
+}
+
+.aboutTitle {
+   color: #000;
+   font-size: 3rem;
+   font-weight: bolder;
+   margin-top: 28px;
+   margin-bottom: 26px;
+}
+
+.aboutInfo {
+   color: #333;
+   font-size: 1.3rem;
+   margin-bottom: 10px;
+   padding: 0 40px;
+}
+
+.ContainerImagesAbout {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 40px 10px;
+}
+
+.ContainerImagesAbout img {
+   border-radius: 8px;
+}
+
+.imageContain {
+   width: 250px;
+   height: 300px;
+   margin-bottom: 10px;
+   object-fit: cover;
+}

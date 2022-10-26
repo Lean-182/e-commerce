@@ -1,0 +1,76 @@
+footer {
+	font-family: 'Square Peg', cursive;
+	display: flex;
+	position: relative;
+	width: 100%;
+	flex-direction: column;
+	align-items: stretch;
+	align-content: center;
+    /* background-color: rgb(61, 5, 67); */
+    background-image: url('../../assets/backgroundBlocks.jpg');
+    /* background-repeat: repeat-x; */
+	background-size: cover;
+    height: 12vh;
+    margin-top: 0px;
+    z-index: 100;
+    color: var(--glow-color);
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 0.5em var(--glow-color);
+	position: relative;
+	transition: all 0.3s;
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 23px;
+}
+.footerLinks a{
+    text-decoration: none;	
+    --glow-color: rgb(217, 176, 255);
+	--glow-spread-color: rgba(191, 123, 255, 0.781);
+	--enhanced-glow-color: rgb(231, 206, 255);
+	--btn-color: rgb(100, 61, 136);
+	color: var(--glow-color);
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 0.5em var(--glow-color);
+	position: relative;
+	transition: all 0.3s;
+}
+.btnFooterEffect:hover{
+    color: var(--btn-color);
+	border-radius: 5px;
+	background-color: var(--glow-color);
+	box-shadow: 0 0 1em 0.25em var(--glow-color),
+		0 0 4em 2em var(--glow-spread-color), 0 0 0.75em 0.25em var(--glow-color);
+}
+.logoFooter {
+	width: 40px;
+}
+@media screen and (max-width: 1366px) {
+	footer{
+		height: 13.7vh;
+	}
+	.logoFooter {
+		width: 30px;
+	}
+}
+/*----------Media Queries (2K DEVICES) ----------*/
+@media screen and (min-width: 1400px) and (max-width: 1680px){
+	footer{
+		height: 12.4vh;
+	}
+}
+/*----------Media Queries (UHD DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2160px)  {
+	.parendAbout {
+	  margin-left: 7%;
+	}
+	.mainAbout {
+	  height: 77.9vh;
+	}
+  }

@@ -1,0 +1,20 @@
+.resetContainer{
+    height: 66.5vh;
+    position: relative;
+    display: flex;
+    margin-top: 6%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.resetForm input{
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(152, 40, 204);
+}
+.btnSubmitReset{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 95px;
+}

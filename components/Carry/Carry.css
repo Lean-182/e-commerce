@@ -1,0 +1,145 @@
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ea0be3 rgb(216, 148, 233);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(220, 151, 245);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(181, 88, 191, 0.626);
+  border-radius: 5px;
+  border: 2px solid #ba0bea;
+}
+
+.mainContainer {
+  margin: auto;
+  margin-top: 2.2%;
+  margin-bottom: 0%;
+  padding: 35px;
+  height: 66.2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59%;
+  overflow-y: scroll;
+}
+
+.containCarry {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 68vh;
+  margin-top: 110px;
+}
+
+.paragraph {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #343a40;
+  color: white;
+  font-size: 2rem;
+}
+
+.PriceTotalGlobal {
+  margin-left: 100px;
+}
+
+.PriceTotal {
+  position: absolute;
+  display: block;
+  width: 9%;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -5%;
+  margin-left: 126px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-image: url('../../assets/backgroundBlocks2.jpg');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 50px 5px #000000;
+  box-shadow: 5px 5px 40px -4px #000000;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+
+.PriceTotal p {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btnCarryContinue {
+  margin: 0px;
+  width: 160px;
+  height: 8vh;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1366px) {
+  .mainContainer {
+    height: 60.3vh;
+  }
+
+  .btnCarryContinue {
+    margin-left: -5px;
+    width: 151px;
+    height: 12vh;
+    margin-top: 10px;
+    text-align: justify;
+  }
+
+  .PriceTotal {
+    margin-top: -10%;
+    margin-left: 60px;
+    width: 145px;
+  }
+  .containCarry{
+    height: 68vh;
+    width: 98%;
+  }
+}
+
+.emptyCart {
+  height: 400px;
+  width: 500px;
+}
+
+
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px) {
+  .mainContainer {
+    height: 68.3vh;
+  }
+  
+  .PriceTotal p {
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+
+/*----------Media Queries (2K DEVICES) ----------*/
+@media screen and (min-width: 1400px) and (max-width: 1680px) {
+  .mainContainer {
+    height: 63vh;
+  }
+}
+/*----------Media Queries (UHD DEVICES) ----------*/
+@media screen and (min-width: 2048px) {}

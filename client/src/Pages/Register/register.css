@@ -1,0 +1,129 @@
+.registerContainer {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    border: 3px solid var(--glow-color);
+    border-radius: 5px;
+    width: 40%;
+    height: 74vh;
+    background-color: var(--glow-color);
+    margin-bottom: 10px;
+    box-shadow: 0 0 1em .25em var(--btn-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--btn-color);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.formContainer {
+    margin-left: -15%;
+}
+
+.tltleRegister {
+    /* margin-bottom: -11px; */
+    color: var(--glow-spread-color);
+    text-shadow: 1px 2px 3px rgb(88, 1, 122);
+}
+
+.formRegister input {
+    width: 350px;
+    margin-bottom: 1px;
+    margin-left: 12%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(152, 40, 204);
+}
+.formRegister label {
+    margin-left: 12%;
+}
+.btnGlobal {
+    margin-left: 40%;
+    margin-top: 5%;
+    cursor: pointer;
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+}
+
+.btnGlobal::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.btnGlobal:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+.errorRegister{
+    color: rgb(255, 0, 166);
+    font-size: .7em;
+}
+
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+    .registerContainer {
+        width: 40%;
+        height: 67.2vh;
+        overflow-y: scroll;
+    }
+    .formContainer{
+        margin-left: -40%;
+        margin-top: 60%;
+    }
+    .formRegister input {
+        max-width: 250px;
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(152, 40, 204);
+    }
+    .formRegister label {
+        margin-left: 10%;
+        /* position: absolute; */
+    }
+    .tltleRegister{
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    .btnGlobal{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+}
+
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1728px) {}
+
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px) {}

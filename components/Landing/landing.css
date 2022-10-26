@@ -1,0 +1,55 @@
+.virtualBody{
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    height: 77.9vh;
+    margin-top: 25px;
+}
+
+.virtualBody2 {
+    display: block;
+    margin: 10px;
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+.imgCarrousel{
+    width: 70% !important;
+    border-radius: 15px;
+}
+.slider-wrapper{
+    background-color: #21072b4d;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+    .virtualBody{
+        height: 74.7vh;
+    }
+    .imgCarrousel{
+        width: 62% !important;
+    }
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+    .virtualBody{
+        height: 78.1vh;
+    }
+    .imgCarrousel{
+        width: 63% !important;
+    }
+  }
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px)  {
+    .virtualBody{
+        height: 80.1vh;
+    }
+    .virtualBody2{
+        margin-top: 20px;
+    }
+    .imgCarrousel{
+        width: 100% !important;
+    }
+}

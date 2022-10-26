@@ -1,0 +1,57 @@
+.productContainer {
+  width: 300px;
+  background: url("../image/FondoTarjetas.jpg");
+  background-color: antiquewhite;
+  background-size:     cover;
+  color:white;
+  padding: 30px 25px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 50px 5px #646464; 
+  box-shadow:3px 3px 30px 3px #646464;
+
+}
+
+
+.productContainer h3 {
+  margin: 1;
+}
+
+.photoContainer {
+  width: 400px;
+  height: 350px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.photoContainer img {
+  border-radius: 50px;
+  height: 60%;
+  width: 70%;
+}
+
+.priceCartContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.priceCartContainer button {
+  background-color:rgb(13, 192, 58);
+  padding: 10px 13px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.priceCartContainer button:hover {
+  background-color:darkgray;
+}
