@@ -1,0 +1,69 @@
+.AvataresContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 100px;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.AvatarImage{
+    width: 100px;
+    height: 130px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+.AvatarImage:hover {
+	cursor: pointer;
+    position:relative;
+    bottom:10px;
+}
+.AvatarImage:active {
+    box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75) inset;
+-webkit-box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75) inset;
+-moz-box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75) inset;
+border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+}
+
+
+.ModalLogin2Avatar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+    z-index: 3001;
+    width: 100%;
+    height: 100%;
+}
+
+.AvataresContainerFlex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;  
+}
+
+.Avatarbutton{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btnAvatarHide{
+    display: none;
+}
+
+#SeleccionadoImageAvatar{
+    box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75);
+-webkit-box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75);
+-moz-box-shadow: 0px 0px 43px 5px rgba(29,237,141,0.75);
+border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+}

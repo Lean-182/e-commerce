@@ -1,0 +1,102 @@
+.BoxPasarela {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 79vh;
+}
+.Pasarela {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 5%;
+    background-color: transparent;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 50px 5px #000000;
+    box-shadow: 5px 5px 40px -4px #000000;
+    width: 70%;
+    height: 65vh;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonContinue {
+    width: 160px;
+    margin: auto;
+    margin-top: 450px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.buttonPreview {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -150px;
+}
+.btnContinueReference{
+    margin-left: 200px;
+}
+/* .css-1kvipzo{
+    
+} */
+.navMaps, .ListaPasarela {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: auto;
+    width: 60%;
+    display: flex;
+    gap: 135px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 50px 5px #000000;
+    box-shadow: 5px 5px 40px -4px #000000;
+    backdrop-filter: blur(3px);
+}
+
+#LisPasarelaSelect {
+    background-color: rgb(204, 131, 228);
+    padding: 15px;
+    border-radius: 5px;
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+    .BoxPasarela {
+        height: 76.3vh;
+    }
+    .ListaPasarela{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .Pasarela{
+        margin-top: 95px;
+    }
+    .buttonContinue {
+        width: 160px;
+        transform: scale(.7);
+        margin-top: 310px;
+        margin-left: 180px;
+    }
+    .buttonPreview {
+        position: absolute;
+        margin-top: 310px;
+        margin-left: -150px;
+        transform: scale(.7);
+    }
+    /* .btnContinueReference{
+        margin-bottom: 20px;
+        margin-left: 200px;
+    } */
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+
+  }
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px)  {
+
+}

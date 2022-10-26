@@ -1,0 +1,35 @@
+.cards {
+	height: 75.9vh;
+    margin: auto;
+    margin-top: 27px;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+.ButtonOrdersUsers {
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(255, 2, 158);
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc7b;
+}
+.ButtonOrdersUsers:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+.ButtonOrdersUsers:active {
+	position:relative;
+	top:1px;
+}
+#pagination-first-page{
+	color: #a20dbd;
+}

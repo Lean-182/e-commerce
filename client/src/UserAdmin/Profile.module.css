@@ -1,0 +1,16 @@
+.mainContainer {
+   height: 80.1vh;
+   
+}
+
+.mainContainer {
+   /* background-image: url(../image/fondo.png); */
+   /* background-image: url(../image/Fondo2.png); */
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+}
+

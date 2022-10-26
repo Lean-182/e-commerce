@@ -1,0 +1,82 @@
+.container {
+  padding: 25px;
+  min-height: 70vh;
+}
+
+.headerOrder {
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 4, 163);
+  padding: 15px 0;
+  border: 2px solid #ba0bea;
+  border-radius: 10px;
+  width: 25%;
+  box-shadow: 0px 9px 24px 0px rgba(32, 31, 33, 0.92);
+	-webkit-box-shadow: 0px 9px 24px 0px rgba(32, 31, 33, 0.92);
+	-moz-box-shadow: 0px 9px 24px 0px rgba(32, 31, 33, 0.92);
+  
+}
+
+.flexContainer {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  border: 1px solid rgb(219, 219, 219);
+  min-width: 15%;
+  max-width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.btnReview {
+  margin: auto;
+  margin-left: 80px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: #5e047c;
+  color: rgb(255, 1, 179);
+  border-radius: 10px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btnReview:hover {
+  color: rgb(255, 1, 179);
+  margin-right: 5px;
+}
+
+.paragraphTotal {
+  margin-top: 25px;
+  padding: 8px 4px;
+  display: inline-block;
+  width: 15%;
+  background-color: #8f9191;
+  color: white;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 1366px) {
+  .headerOrder {
+    margin-top: -30px;   
+     width: 40%;
+  }
+}
+/*----------Media Queries (FHD DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+
+  }
+/*----------Media Queries (UHD DEVICES) ----------*/
+@media screen and (min-width: 2048px) {
+  
+}

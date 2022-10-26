@@ -1,0 +1,58 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;  
+  margin-top: 5px;
+  width: 72%;
+}
+
+.pagination li {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: rgb(5, 6, 45);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid ;
+  border-color: #af40ff;
+}
+
+.pagination li:hover {
+  background-color: rgb(100, 61, 136);
+  box-shadow: 0 0 1px 0.2px rgb(217, 176, 255),
+		0 0 4px 2px rgba(191, 123, 255, 0.781), 0 0 0.75px 0.2px rgb(217, 176, 255);
+}
+
+#pagSeleccionada {
+  color: rgb(132, 0, 255);
+  background-color: rgba(191, 123, 255, 0.781);
+  box-shadow: 0 0 1px 0.2px rgb(217, 176, 255),
+		0 0 4px 2px rgba(191, 123, 255, 0.781), 0 0 0.75px 0.2px rgb(217, 176, 255);
+  cursor: default;
+}
+
+#Inhabilitado{
+  visibility:collapse;
+}
+
+/* #Inhabilitado {
+  visibility:collapse;
+} */
+/* #Inhabilitado:hover {
+  cursor: default;
+} */
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+  .pagination {
+    width: 70%;
+  }
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+
+}
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px)  {
+
+}

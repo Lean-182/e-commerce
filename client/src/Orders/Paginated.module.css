@@ -1,0 +1,33 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.pagination li {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #343a40;
+  color: #ff01c6;;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.pagination li:hover {
+  background-color: #008000;
+}
+
+#pagSeleccionada {
+  color: #ff01c6;;
+  text-shadow: 0 0 5px #ff01c6, 0 0 10px #ff01c6, 0 0 15px #ff01c6, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  cursor: default;
+}
+
+#Inhabilitado {
+  visibility:collapse;
+}
+/* #Inhabilitado:hover {
+  cursor: default;
+} */

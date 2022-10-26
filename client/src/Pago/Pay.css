@@ -1,0 +1,23 @@
+.title {
+  color: #343a40;
+  margin-bottom: 0;
+}
+
+.btnBack {
+  margin-top: 30px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: #343a40;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btnBack:hover {
+  color: #02d302;
+}
+.paypalContainer{
+  margin: auto;
+}

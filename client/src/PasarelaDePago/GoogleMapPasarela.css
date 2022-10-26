@@ -1,0 +1,111 @@
+.GoogleMapPlacesSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.GoogleMapPlacesSearch label.modalProfile{
+    color: white;
+}
+
+.Columnas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: -115px;
+    gap: 15px;
+    align-content: center;
+    align-items: baseline;
+}
+.boxGmap{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    width: 1500px;
+    height: 500px;
+}
+
+.OpcionesAdress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -315%;
+}
+
+.SearchBox {
+    display: flex;
+    justify-content: center;
+}
+
+.pac-container {
+    background-color: #fff;
+    position: absolute !important;
+    border-radius: 2px;
+    border-top: 1px solid #d9d9d9;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 4000;
+}
+
+.SearchboxK {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input.inputSearchbox {
+    width: 300px;
+    padding: 10px;
+}
+
+.chakra-button {
+    padding: 11px !important;
+}
+
+.Adress {
+    width: 300px;
+    display: flex;
+}
+.btnYes{
+margin: auto;
+transform: scale(.7);
+}
+.btnNo{
+    margin: auto;
+    transform: scale(.7);
+}
+.btnsAddress{
+    margin-top: -50px;
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+    .boxGmap{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 1150px;
+        height: 350px;
+    }
+    .btnsAddress{
+        margin-top: -80px;
+    }
+    .Columnas {
+        margin-top: -50px;
+        gap: 10px;
+    }
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+
+  }
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px)  {
+
+}

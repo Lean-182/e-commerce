@@ -1,0 +1,77 @@
+main {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* .containerFilter, .ItemFilter{
+	
+} */
+.NavFilter {
+	margin: 0;
+	width: 19rem;
+	text-align: left;
+	margin-top: 57%;
+	margin-bottom: 10px;
+	color: white;
+   font-size: 1em;
+	background-size: cover;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	padding: 5px;
+	box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+	background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);   
+}
+.NavFilter input, select{
+   border-radius: 8px;
+   padding: 10px;
+}
+.NavFilter li{
+   list-style: none;
+}
+.contentFilter {
+	background: rgb(5, 6, 45);
+	border-radius: 17px;
+	width: 100%;
+	height: 100%;
+}
+
+.ItemFilter {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.NameFilter {
+	color: rgb(231, 206, 255);
+	text-shadow: 0 0 px rgb(231, 206, 255);
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.priceA{   
+   text-align: center;
+   margin-top: 12px;
+}
+.checkboxBrand{
+	transform: scale(1.1);
+}
+.lblBrand{
+	padding: 2px;
+	vertical-align: baseline;
+	font-size: 1.5em;
+}
+@media screen and (max-width: 1366px) {
+	.NavFilter{
+		width: 15rem;
+	}
+	.contentFilter ul{
+		margin: -15px;
+		font-size: .7em;
+	}
+	.contentFilter input, select{
+		padding: 5px;
+	}
+}
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2048px) {
+  
+}

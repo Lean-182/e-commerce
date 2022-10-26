@@ -1,0 +1,141 @@
+.containCarry {
+   height: 72vh;
+}
+
+.mainContainerProfile {
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+   margin-top: -50px;
+}
+
+.profileContainer{
+   margin: auto;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: space-around;
+   border: 3px solid var(--glow-color);
+   border-radius: 5px;
+   width: 40%;
+   height: 71.2vh;
+   background-color: var(--glow-color);
+   margin-bottom: 10px;
+   box-shadow: 0 0 1em .25em var(--btn-color),
+     0 0 4em 1em var(--glow-spread-color),
+     inset 0 0 .75em .25em var(--btn-color);
+}
+.profileContainerForm{
+   margin: 30px auto;
+}
+.profileForm input{
+   margin-top: 30px;
+   width: 300px;
+   border-radius: 5px;
+   color: rgb(152, 40, 204);
+   padding: 10px;
+}
+
+.btnEditAddressContainer{
+   position: absolute;
+   right: 630px;
+   top: 420px;
+}
+.btnEditAddress{
+   transform: scale(0.5) !important;
+   width: 200px;
+   font-size: 16px;
+}
+
+.btnEditAddressContainer{
+   position: absolute;
+   right: 630px;
+   top: 420px;
+}
+.btnEditAddress{
+   transform: scale(0.5) !important;
+   width: 200px;
+   font-size: 16px;
+}
+.error {
+  color: rgb(255, 0, 166);
+  margin-top: 45px;
+  position: absolute;
+  font-size: .7em;
+}
+.btnUpdateProfile{
+   width: 275px;
+   margin: auto;
+   margin-left: 20px;
+   margin-top: 40px;
+}
+.titleUpdateProfile{
+   margin: auto;
+   margin-left: 30px;
+}
+.btnMapProfile{
+   margin-left: -25px;
+   margin-top: -25px;
+   transform: scale(.6);
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (max-width: 1366px) {
+   .profileContainer{
+      margin: auto;
+      margin-top: 20px;
+      height: 70.6vh;
+      margin-bottom: 10px;
+   }
+   .profileForm input{
+      margin-top: 10px;
+      width: 300px;
+      padding: 8px;
+   }
+   .btnUpdateProfile{
+      margin-top: 20px;
+   }
+   .btnMapProfile{
+      margin-left: -25px;
+      margin-top: 0px;
+      margin-bottom: 35px;
+   }
+}
+/*----------Media Queries (MEDIUM DEVICES) ----------*/
+@media screen and (min-width: 1367px) and (max-width: 1728px)  {
+
+ }
+/*----------Media Queries (HIGH DEVICES) ----------*/
+@media screen and (min-width: 2040px) and (max-width: 2161px)  {
+
+}
+
+
+
+.buttonEditProfile {
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.buttonEditProfile:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+.buttonEditProfile:active {
+	position:relative;
+	top:1px;
+}

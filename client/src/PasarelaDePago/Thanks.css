@@ -1,0 +1,12 @@
+.thanksContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txtThanks{
+    font-family: 'Square Peg', cursive;
+    font-size: 5em;
+}
+.btnThanks{
+    margin: auto;
+}

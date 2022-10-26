@@ -1,0 +1,269 @@
+.productContainer {
+   min-width: 500px;
+   height: 50vh;
+   background-size:contain;
+   color: black;
+   padding: 15px;
+   margin: 15px auto;
+   display:flexbox;
+   font-size: 22px;
+   gap: 5px;
+   align-items:stretch;
+   flex-direction: column;
+   border-radius: 15px;
+   -webkit-box-shadow: 5px 5px 50px 5px #000000;
+   box-shadow: 5px 5px 50px 5px #575555;
+   border-width: 0px;
+   letter-spacing:initial;
+   font-family:serif;
+
+
+}
+.titulo {
+    color: #CCC;
+    display: block;
+    font-size: 2.1em;
+    min-height: 20px;
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+    font-weight:900;
+    transition: all .15s ease-out;
+    background-color: #ededed;
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #444;
+    text-transform: uppercase;
+    margin: 5px 5px 30px;
+    background-color: #ededed;
+}
+
+.informacionContainer {
+   width: 80%;
+   margin-top: 45px;
+   display: flex;
+   justify-content:space-evenly;
+   font-family:serif;
+}
+
+.photoContainer {
+   width: 300px;
+   height: 150px;
+}
+
+.photoContainer img {
+   height: 100%;
+   border-radius: 10px;
+}
+
+.InforContainerText {
+   display: flex;
+   flex-direction:column;
+}
+
+.InforContainerText p b {
+   font-size: 25px;
+   margin-right: 9px;
+}
+
+.InforContainerText p {
+   margin:10px 8px;
+}
+
+.buttonModify {
+   margin-left: 400px;
+}
+
+.buttonModify button {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 150px;
+   height: 44px;
+   background-color: #1c1c1c;
+   border: 2px solid #efb810;
+   border-radius: 4px;
+   font-size: 1.4rem;
+   font-weight: bold;
+   text-align: justify;
+   font-family: "DM-Sans", sans-serif;
+   color: #efb810;
+   margin: initial;
+}
+
+.buttonModify span {
+   display: inline-block;
+   margin: 0;
+   width: 40px;
+   height: 40px;
+   background-image: url("../image/confi-icon.png");
+   background-size: contain;
+   align-items:flex-start;
+
+   background-repeat: no-repeat;
+}
+
+.buttonModify button:hover {
+   background-color: rgb(235, 184, 44);
+   cursor: pointer;
+   color: #1c1c1c;
+   border: 1px solid #1c1c1c;
+   align-items: center;
+}
+
+.buttonChanImg{
+
+   padding: 10px 15px;
+   outline: none;
+   cursor: pointer;
+   background-color: #008000;
+   color: white;
+   border-radius: 5px;
+   border: none;
+   font-size: 1.2rem;
+   margin-right: 1px;
+   margin-bottom: 2px;
+   
+}
+.buttonChanImg:hover{
+   background-color: #05b405;
+
+
+}
+
+
+.buttonChangePass{
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: #008000;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  
+
+}
+.buttonChangePass:hover{
+   background-color: #05b405;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                     ANTIGUO CSS             */
+
+/* .texContainer {
+   display: flex;
+   flex-direction: column;
+}
+
+.texContainer h2 {
+   margin-bottom: 0;
+}
+
+.texContainer p {
+   font-size: 1.2rem;
+}
+
+.productContainer h3 {
+   margin: 0;
+}
+
+.photoContainer {
+   border-radius: 100%;
+}
+
+.photoContainer img {
+   border-radius: 100%;
+   height: 100%;
+}
+
+.priceCartContainer {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.priceCartContainer button {
+   background-color: #008000;
+   padding: 10px 13px;
+   border-radius: 10px;
+   cursor: pointer;
+   border: none;
+   color: white;
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+}
+
+.priceCartContainer button:hover {
+   background-color: #02d302;
+}
+
+.btnsContainer {
+   display: flex;
+   justify-content: space-around;
+}
+
+.btnPlusMinus span {
+   margin: 0 8px;
+   font-size: 20px;
+}
+
+.btnPlusMinus button {
+   font-size: 20px;
+   cursor: pointer;
+   padding: 8px 13px;
+   border-radius: 25%;
+   border: none;
+}
+
+.btnPlusMinus button:hover {
+   background-color: #008000;
+}
+
+.btnPlusMinus button:active {
+   color: white;
+}
+
+.btnDelete button {
+   background-color: white;
+   padding: 10px 13px;
+   border-radius: 10px;
+   cursor: pointer;
+   border: none;
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+}
+
+.btnDelete button:hover {
+   background-color: #b40202;
+   color: white;
+}
+
+.btnDelete button:active {
+   color: #343a40;
+}
+
+.InforContainer {
+   display: flex;
+   flex-direction: column;
+} */
